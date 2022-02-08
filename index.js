@@ -20,11 +20,7 @@ console.log("username and password: ", USERNAME);
 })();
 
   
-// app.post('/', async (req, res) => {
-//     const body = req.body;
-//     console.log("data: ", body);
-//     res.json({ message: 'received' });
-// })
+ 
 app.get('/', async(req, res) => {
     
     const survey = await Survey.find({});
