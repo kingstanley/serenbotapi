@@ -1,0 +1,22 @@
+{
+  "name": "SerenApi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index"
+  },
+  "keywords": [
+    "Seren"
+  ],
+  "author": "Joel Stanley",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "jest": "^27.5.0",
+    "mongoose": "^6.2.0",
+    "supertest": "^6.2.2"
+  }
+}
